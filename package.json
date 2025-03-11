@@ -1,7 +1,7 @@
 {
   "name": "openai-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "files": [
     "knowledge_base.json"
   ],

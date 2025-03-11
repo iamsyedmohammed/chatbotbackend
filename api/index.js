@@ -121,7 +121,13 @@ User Question: ${userQuery}
 module.exports = app;
 
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT; // Remove the default 3000
+if (!port) {
+    console.error("❌ ERROR: PORT environment variable is missing!");
+    process.exit(1);
+}
+
 app.listen(port, () => {
     console.log(`🚀 Server running on port ${port}`);
 });
+
