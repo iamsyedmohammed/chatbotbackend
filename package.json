@@ -1,0 +1,26 @@
+{
+  "name": "openai-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "knowledge_base.json"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fuse.js": "^7.1.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
