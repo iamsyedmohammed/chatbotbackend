@@ -123,9 +123,9 @@ const serverless = require("serverless-http");
 module.exports = serverless(app);
 
 // Only start the local server when running directly
-// if (require.main === module) {
-//     const port = process.env.PORT || 3000;
-//     app.listen(port, () => {
-//         console.log(`🚀 Server running on http://localhost:${port}`);
-//     });
-// }
+if (require.main === module) {
+    const port = process.env.PORT || 3000;
+    app.listen(port, () => {
+        console.log(`🚀 Server running on http://localhost:${port}`);
+    });
+}
