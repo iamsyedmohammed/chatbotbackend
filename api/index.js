@@ -54,7 +54,7 @@ app.get("/favicon.ico", (req, res) => {
 });
 
 // Chatbot API
-app.post("/api/chat", async (req, res) => {
+app.post("/api/message", async (req, res) => {
     console.log("🔍 Incoming Request:", req.body);
 
     if (!req.body.message) {
@@ -118,14 +118,10 @@ User Question: ${userQuery}
     }
 });
 
-// Export Express app for Vercel
-const serverless = require("serverless-http");
-module.exports = serverless(app);
+module.exports = app;
 
-// Only start the local server when running directly
-if (require.main === module) {
-    const port = process.env.PORT || 3000;
-    app.listen(port, () => {
-        console.log(`🚀 Server running on http://localhost:${port}`);
-    });
-}
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`🚀 Server running on port ${port}`);
+});
