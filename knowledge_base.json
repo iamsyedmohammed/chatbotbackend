@@ -13,27 +13,16 @@
         },
         {
           "question": "What industries do you cater to?",
-          "answer": "We serve e-commerce, healthcare, education, finance, real estate, customer support, and enterprise automation sectors."
+          "answer": "We serve e-commerce, healthcare, education, finance, customer support, and enterprise automation sectors."
         },
         {
           "question": "What makes RanazonAI different from other digital solution providers?",
           "answer": "Our AI-driven approach focuses on intelligent automation, seamless integration, and real-time analytics to enhance efficiency and customer engagement."
         },
+
         {
-          "question": "Where is RanazonAI located?",
-          "answer": "RanazonAI operates globally, with remote teams providing AI-driven solutions worldwide."
-        },
-        {
-          "question": "How long has RanazonAI been in business?",
-          "answer": "RanazonAI has been actively providing AI-powered solutions for businesses since its inception, continuously evolving with technological advancements."
-        },
-        {
-          "question": "Who are RanazonAI’s clients?",
-          "answer": "We work with startups, SMEs, and large enterprises looking for AI-driven digital transformation and automation solutions."
-        },
-        {
-          "question": "What is your name?",
-          "answer": "My name is RanzBot, and I am a virtual assistant here to help you."
+          "question":"What is your name ?",
+          "answer":"My Name is RanzBot and Iam a virtual Assistant here to Help you"
         }
       ]
     },
@@ -49,24 +38,12 @@
           "answer": "Yes, we build custom AI chatbots tailored to specific business needs."
         },
         {
-          "question": "What types of AI chatbots does RanazonAI build?",
-          "answer": "We build AI chatbots for customer support, lead generation, sales automation, HR automation, and industry-specific virtual assistants."
-        },
-        {
           "question": "Can you integrate AI with existing CRM or websites?",
           "answer": "Yes, our AI solutions seamlessly integrate with CRMs, websites, and third-party applications."
         },
         {
-          "question": "Can RanazonAI’s AI handle multiple languages?",
-          "answer": "Yes, our AI-driven chatbots and automation solutions support multiple languages to cater to global businesses."
-        },
-        {
           "question": "Do you offer automation services?",
           "answer": "Yes, we specialize in workflow automation, task scheduling, and AI-driven process optimization."
-        },
-        {
-          "question": "Does RanazonAI provide website development?",
-          "answer": "Yes, we offer AI-integrated web development services, including custom website design, e-commerce solutions, and optimization for user experience."
         }
       ]
     },
@@ -75,9 +52,8 @@
       "questions": [
         {
           "question": "How can I contact RanazonAI customer support?",
-          "answer": "You can reach us via email <a href='mailto:contact@ranazonai.com'>contact@ranazonai.com</a>, live chat, or support tickets on our website."
+          "answer": "You can reach us via email, live chat, or support tickets on our website."
         },
-        
         {
           "question": "What are your response times for support queries?",
           "answer": "We respond within 24 hours for general inquiries and offer priority support for premium clients."
@@ -85,10 +61,6 @@
         {
           "question": "Do you offer a free trial or demo of your services?",
           "answer": "Yes, we provide free trials and demo sessions upon request."
-        },
-        {
-          "question": "Does RanazonAI offer training for AI tools?",
-          "answer": "Yes, we provide training and onboarding for businesses implementing our AI solutions."
         }
       ]
     },
@@ -97,23 +69,15 @@
       "questions": [
         {
           "question": "How does RanazonAI ensure data security?",
-          "answer": "We use encryption, access control, and compliance with international security standards."
+          "answer": "We use encryption, access control, and compliance with security standards."
         },
         {
           "question": "How do you store customer data?",
           "answer": "Data is stored securely in cloud servers with end-to-end encryption."
         },
         {
-          "question": "Is my data shared with third parties?",
-          "answer": "No, RanazonAI strictly adheres to data privacy regulations and does not share your data without consent."
-        },
-        {
           "question": "What AI models do you use for chatbots?",
           "answer": "We use Gemini AI, OpenAI GPT, and proprietary models fine-tuned for business needs."
-        },
-        {
-          "question": "How does RanazonAI ensure AI models remain unbiased?",
-          "answer": "We continuously monitor and refine our AI models to reduce biases and ensure fair, ethical AI decision-making."
         }
       ]
     },
@@ -131,18 +95,6 @@
         {
           "question": "How can AI increase sales & conversions?",
           "answer": "AI provides personalized recommendations, lead generation, and automated follow-ups."
-        },
-        {
-          "question": "How does AI-driven automation improve business operations?",
-          "answer": "AI automation streamlines repetitive tasks, reduces human errors, and enhances efficiency, allowing businesses to focus on strategic growth."
-        },
-        {
-          "question": "How can AI-powered analytics help my business?",
-          "answer": "Our AI-powered analytics provide actionable insights into customer behavior, sales trends, and operational performance, enabling data-driven decision-making."
-        },
-        {
-          "question": "Does RanazonAI help businesses with AI strategy consulting?",
-          "answer": "Yes, we provide AI strategy consulting to help businesses identify the best AI-driven solutions for their needs."
         }
       ]
     },
@@ -160,10 +112,6 @@
         {
           "question": "Can your AI analyze customer sentiment?",
           "answer": "Yes, our AI chatbot detects customer emotions, feedback, and sentiment analysis."
-        },
-        {
-          "question": "How does AI contribute to digital transformation?",
-          "answer": "AI accelerates digital transformation by enabling automation, personalized user experiences, and data-driven decision-making."
         }
       ]
     }
