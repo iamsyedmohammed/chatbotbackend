@@ -30,6 +30,17 @@ try {
     console.error("❌ ERROR: Could not load knowledge_base.json", error);
 }
 
+const rateLimit = require('express-rate-limit');
+
+const limiter = rateLimit({
+  windowMs: 60 * 1000, // 1 minute
+  max: 10, // 10 requests per minute per IP
+  message: { error: "Too many requests. Please slow down." }
+});
+
+app.use('/api/message', limiter);
+
+
 // Set up Fuzzy Search (assuming each question object has "question" and "answer")
 const fuseOptions = {
     keys: ["question"],
@@ -47,6 +58,11 @@ app.get("/", (req, res) => {
 app.get("/api", (req, res) => {
     res.send("✅ API is working correctly!");
 });
+
+app.get("/ping", (req, res) => {
+    res.status(200).send("pong 🏓");
+  });
+  
 
 // Fix `/favicon.ico` Errors
 app.get("/favicon.ico", (req, res) => {
