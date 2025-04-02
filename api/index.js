@@ -60,7 +60,7 @@ app.get("/api", (req, res) => {
 });
 
 app.get("/ping", (req, res) => {
-    res.status(200).send("pong 🏓");
+    res.status(200).send("pong 🏓 for Ranzbot");
   });
   
 
