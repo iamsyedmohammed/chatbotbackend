@@ -43,7 +43,7 @@
       "questions": [
         {
           "question": "How can I contact Ranazonai support?",
-          "answer": "You can connect with our support team through email at contact@ranazonai.com, via live chat, or by submitting a support request directly on our website ."
+          "answer": "You can connect with our support team through email at <a href=\"mailto:contact@ranazonai.com\">contact@ranazonai.com</a>, via live chat, or by submitting a support request directly on our website."
         },
         {
           "question": "What are your support response times?",
